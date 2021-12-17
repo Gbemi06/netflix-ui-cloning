@@ -1,3 +1,8 @@
+.container {
+    color: white;
+    
+}
+
 .netflix_logo {
     width: 90px;
     height: 50px;;
@@ -5,14 +10,33 @@
 
 h1 {
     align-items: center;
-    color: blue;
+    color: white;
 }
 
-#body-color {
-    background: rgb(21,21,22);
-    background: linear-gradient(90deg, rgba(21,21,22,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+body {
+    background-color: rgb(21,21,22);
+    
 }
 
 .page {
     -ms-flex-item-align: center;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+
+}
+hr {
+    color: white;
+    height: 0.5px;
+    
+}
+
+#logo{
+    background-image: url("assets/strive.png");
+    width: 130px;
+    height: 130px;
+    background-size: 100%;
+    position: relative;
 }
